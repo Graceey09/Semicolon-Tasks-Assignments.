@@ -19,7 +19,7 @@ public class ArrayTask1 {
         }
         System.out.println(Arrays.toString(number));
     }
-//        ArrayTask1 arrayTask1 = new ArrayTask1();
+//        JavaWorks.ArrayTask1 arrayTask1 = new JavaWorks.ArrayTask1();
 //        arraySwap();
 //        int[] number = {1, 2, 3, 4, 5, 6};
 //        for (int num = 0; num < number.length; num++){

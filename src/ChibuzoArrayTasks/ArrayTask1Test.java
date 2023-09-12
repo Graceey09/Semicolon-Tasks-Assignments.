@@ -15,7 +15,7 @@ public class ArrayTask1Test {
 
 //    @Test
 //    public void testThatArrayCanBeAddedTo() {
-//        ArrayTask1 arrayTask1 = new ArrayTask1();
+//        JavaWorks.ArrayTask1 arrayTask1 = new JavaWorks.ArrayTask1();
 //        arrayTask1.add();
 
     }

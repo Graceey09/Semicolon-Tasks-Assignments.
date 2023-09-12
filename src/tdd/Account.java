@@ -31,7 +31,7 @@ public class Account {
             throw new IllegalArgumentException("Insufficient balance");
             }
         else if ( amount < 0){
-            throw new IllegalArgumentException("Can't withdraw negative amount");
+            throw new IllegalArgumentException("Invalid Input");
         }
         }
     }

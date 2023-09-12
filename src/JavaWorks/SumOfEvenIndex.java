@@ -1,3 +1,5 @@
+package JavaWorks;
+
 import java.util.Scanner;
 
 public class SumOfEvenIndex {

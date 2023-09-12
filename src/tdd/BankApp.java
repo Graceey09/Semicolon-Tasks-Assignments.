@@ -15,6 +15,10 @@ public class BankApp {
     public void registerAccount(String firstName, String lastName, String pin) {
     }
 
+    public void findAccount(){
+
+    }
+
     public int getAccounts() {
         return 0;
     }

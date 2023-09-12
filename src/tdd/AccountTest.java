@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class AcccountTest {
+public class AccountTest {
     @Test
     public void checkThatCanDepositTest(){
         Account account = new Account("AccountName", "AccountNumber", "1920");
@@ -34,7 +34,6 @@ public class AcccountTest {
         Account account = new Account("AccountName", "AccountNumber", "1920");
         account.deposit(5_000);
         assertEquals(5_000, account.checkBalance("1920"));
-//        account.withdraw(-5_000, "1920");
         assertThrows(IllegalArgumentException.class,() -> {account.withdraw(-5_000,"1920");});
         assertEquals(5_000,account.checkBalance("1920"));
     }

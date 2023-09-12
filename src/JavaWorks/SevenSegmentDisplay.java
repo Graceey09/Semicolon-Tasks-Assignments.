@@ -1,3 +1,5 @@
+package JavaWorks;
+
 import java.util.Arrays;
 
 public class SevenSegmentDisplay {
