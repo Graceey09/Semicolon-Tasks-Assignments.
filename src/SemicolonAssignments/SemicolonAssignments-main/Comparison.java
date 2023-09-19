@@ -17,7 +17,7 @@ public class Comparison {
 		System.out.printf("%d, %d == %d%n", number, squareOfNumber, 100);
 		
 		if ((number & squareOfNumber) != 100);
-	        System.out.printf("%d, %d != %d%n", number, squareOfNumber, 100);
+		System.out.printf("%d, %d != %d%n", number, squareOfNumber, 100);
 	        
 	        if ((number & squareOfNumber) < 100);
 	        System.out.printf("%d, %d < %d%n", number, squareOfNumber, 100);

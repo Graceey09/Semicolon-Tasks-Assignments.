@@ -5,6 +5,7 @@ import java.util.Objects;
 public class Account {
     private String pin;
     private int balance;
+    private String accountName;
     public Account(String accountName, String accountNumber, String pin) {
         this.pin = pin;
     }
@@ -34,4 +35,11 @@ public class Account {
             throw new IllegalArgumentException("Invalid Input");
         }
         }
+
+    public String getAccountName() {
+        return accountName;
     }
+
+    public void getAccountNumber(String accountNumber) {
+    }
+}
