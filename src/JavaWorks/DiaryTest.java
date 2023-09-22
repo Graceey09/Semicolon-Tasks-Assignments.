@@ -36,27 +36,27 @@ public class DiaryTest {
         diary.isLocked();
         diary.unlockDiary();
         diary.createEntry("Sunday blessings", "Today was a great day. I went to church and it felt good");
-        diary.findEntryById("1");
-        assertEquals("Sunday blessings", diary.findEntryById("1").getTitle());
-        assertEquals("Today was a great day. I went to church and it felt good", diary.findEntryById("1").getBody());
+        diary.findEntryById(1);
+        assertEquals("Sunday blessings", diary.findEntryById(1).getTitle());
+        assertEquals("Today was a great day. I went to church and it felt good", diary.findEntryById(1).getBody());
     }
-//    @Test
-//    public void entryCanBeUpdatedTest(){
-//        Diary diary = new Diary("Grace", "1234");
-//        diary.isLocked();
-//        diary.unlockDiary();
-//        diary.createEntry("Sunday blessings", "Today was a great day.I went to church and it felt good");
-//        diary.updateEntry("1", "Christmas", "I really love christmas");
-//        assertEquals(new Entry("1", "Christmas", "I really love christmas").getEntry().equals());
-//           }
+    @Test
+    public void entryCanBeUpdatedTest(){
+        Diary diary = new Diary("Grace", "1234");
+        diary.isLocked();
+        diary.unlockDiary();
+        diary.createEntry("Sunday blessings", "Today was a great day.I went to church and it felt good");
+        diary.updateEntry(1, "Christmas", "I really love christmas");
+        assertEquals(new Entry(1, "Christmas", "I really love christmas").getEntry(),diary.findEntryById(1).getEntry());
+           }
            @Test
     public void diaryEntryCanBeDeletedTest(){
                Diary diary = new Diary("Grace", "1234");
                diary.isLocked();
                diary.unlockDiary();
                diary.createEntry("Sunday blessings", "Today was a great day.I went to church and it felt good");
-               diary.findEntryById("1");
-               assertEquals("Sunday blessings", diary.findEntryById("1").getTitle());
-               diary.deleteEntry("1");
+               diary.findEntryById(1);
+               assertEquals("Sunday blessings", diary.findEntryById(1).getTitle());
+               diary.deleteEntry(1);
            }
     }

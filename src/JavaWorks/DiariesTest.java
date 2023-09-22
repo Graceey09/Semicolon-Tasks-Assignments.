@@ -10,7 +10,7 @@ public class DiariesTest {
     public void diaryCanBeAddedToTest(){
         Diaries diaries = new Diaries();
         diaries.addDairy("Grace", "1234");
-        assertEquals(new Diary("Grace", "1234").getUsername(), diaries.findByUserName("Grace"));
+        assertEquals(new Diary("Grace", "1234").getUsername(), diaries.findByUserName("Grace").getUsername());
 
     }
     @Test

@@ -6,8 +6,12 @@ public class Account {
     private String pin;
     private int balance;
     private String accountName;
+    private String accountNumber;
+
     public Account(String accountName, String accountNumber, String pin) {
         this.pin = pin;
+        this.accountName = accountName;
+        this.accountNumber = accountNumber;
     }
 
     public void deposit(int  amount) {
@@ -40,6 +44,9 @@ public class Account {
         return accountName;
     }
 
-    public void getAccountNumber(String accountNumber) {
+    public String getAccountNumber() {
+        return accountNumber;
     }
+    public int getBalance(){return balance;}
+    public String getAccount(){return accountNumber + " " + accountName + " " + pin;}
 }
