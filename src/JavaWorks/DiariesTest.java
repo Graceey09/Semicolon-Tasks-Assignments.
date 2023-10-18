@@ -1,5 +1,7 @@
 package JavaWorks;
 
+import Diary.Diaries;
+import Diary.Diary;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

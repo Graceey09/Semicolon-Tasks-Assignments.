@@ -7,7 +7,7 @@
 //public class TelevisionTest {
 //    @Test
 //    public void testThatTelevisionCanBeTurnedOn(){
-//        Television hisense = new Television();
+//        GitHubCodes.Television hisense = new GitHubCodes.Television();
 //        hisense.turnOn();
 //        assertTrue(isOn, )
 //    }

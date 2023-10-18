@@ -1,10 +1,13 @@
+//package JavaWorks;
+//
+//import JavaWorks.Calculator;
 //import org.junit.Test;
 //
 //import static org.junit.Assert.*;
 //import static org.junit.jupiter.api.Assertions.assertNotNull;
 //
 //public class CalculatorTest {
-
+//
 //    @Test
 //    public void testThatCalculatorExist() {
 //        Calculator calculator = new Calculator();
