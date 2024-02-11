@@ -39,7 +39,7 @@ public class BankTest {
         assertEquals(5_000, bankApp.checkBalance("1", "1234"));
     }
     @Test
-    public void moneyCanBeTransferedTest() throws CustomExceptions{
+    public void moneyCanBeTransferredTest() throws CustomExceptions{
         Bank bankApp = new Bank("Stanbic");
         bankApp.registerAccount("Grace", "Maduekwe", "1234");
         bankApp.registerAccount("Precious", "Ochogs", "4321");
@@ -53,6 +53,6 @@ public class BankTest {
         assertEquals(5_000,senderBalance);
 
         double receiverBalance = bankApp.checkBalance("2","4321");
-        assertEquals(5_000,senderBalance);
+        assertEquals(5_000,receiverBalance);
     }
 }
